@@ -11,7 +11,8 @@ class LocationController extends Controller
     {
 
         $ipAddress = $request->ip();
-        $location = GeoLocation::lookup($ipAddress,$responseFilter = 'geo');
+        $static = '197.30.131.167';
+        $location = GeoLocation::lookup($static,$responseFilter = 'geo');
 
         return json_encode($location);
     }
