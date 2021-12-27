@@ -31,12 +31,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![image](https://user-images.githubusercontent.com/55706752/147460405-d0b4a6d5-4a54-40b1-9051-a3e659b546f8.png)
-
 * Fetch weather based on user location by default using Openweathermap-API
 * Lookup weather of other cities
 * Places autocomplete using Algolia places
 * Skycons based on weather icon
+
+![image](https://user-images.githubusercontent.com/55706752/147460405-d0b4a6d5-4a54-40b1-9051-a3e659b546f8.png)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
