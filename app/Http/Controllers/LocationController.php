@@ -13,8 +13,8 @@ class LocationController extends Controller
         $ipAddress = $this->getUserIpAddr();
 
         $static = '197.30.131.167';
-        $location = GeoLocation::lookup($static,$responseFilter = 'geo');
-       
+        $location = GeoLocation::lookup($ipAddress,$responseFilter = 'geo');
+
         return json_encode($location);
     }
     public function getUserIpAddr(){
