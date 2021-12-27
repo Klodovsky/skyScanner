@@ -14,7 +14,5 @@ class LocationController extends Controller
         $location = GeoLocation::lookup($ipAddress,$responseFilter = 'geo');
 
         return json_encode($location);
-
-
     }
 }

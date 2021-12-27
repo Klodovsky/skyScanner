@@ -28,8 +28,7 @@ Route::get('/forecast', function () {
     $lat = request('lat');
     $lon = request('lon');
    // $response = Http::get("$url?lat=$lat&lon=$lon&appid=$apiKey&units=metric");
-    $response = Http::get("$url?q=$city&appid=$apiKey&units=metric");
-    return $response->json();
+    return Http::get("$url?q=$city&appid=$apiKey&units=metric")->json();
 });
 
 
